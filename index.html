@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BatikFind</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      color: #222;
+      background: #faf7f2;
+    }
+
+    header, main, footer {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    nav a {
+      margin-right: 15px;
+      color: #633b22;
+    }
+
+    .designs {
+      display: flex;
+      gap: 20px;
+    }
+
+    article {
+      flex: 1;
+      padding: 15px;
+      border: 1px solid #555;
+      background: white;
+    }
+
+    .picture {
+      background: #eee;
+      border: 1px solid #777;
+      padding: 40px 10px;
+      text-align: center;
+    }
+
+    a:focus {
+      outline: 3px solid blue;
+    }
+
+    footer {
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      .designs {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>BatikFind</h1>
+
+    <nav>
+      <a href="#catalog">Catalog</a>
+      <a href="#compare">Compare</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="compare">
+      <h2>Compare Designs</h2>
+      <p>Sample data only. Names and meanings are examples.</p>
+
+      <div class="designs">
+        <article>
+          <h3>Design 1</h3>
+          <div class="picture">Image placeholder</div>
+          <p><strong>Name:</strong> Flower Design</p>
+          <p><strong>Meaning:</strong> A new start.</p>
+        </article>
+
+        <article>
+          <h3>Design 2</h3>
+          <div class="picture">Image placeholder</div>
+          <p><strong>Name:</strong> Line Design</p>
+          <p><strong>Meaning:</strong> Moving forward.</p>
+        </article>
+      </div>
+
+      <p><a href="#catalog">Back to catalog</a></p>
+    </section>
+
+    <section id="catalog">
+      <h2>Catalog</h2>
+      <p>Sample designs: Flower Design and Line Design.</p>
+      <a href="#compare">Compare these designs</a>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:daauuddaada77@gmail.com">
+        daauuddaada77@gmail.com
+      </a>
+    </p>
+  </footer>
+</body>
+</html>
